@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+		<h1 class="title">Contact Form</h1>
+    <form>
+        <div id="name"> <span>Name:</span>
+          <input type="text" placeholder="Enter your name" required> </div>
+        <div id="username"> <span>Username:</span>
+          <input type="text" placeholder="Enter your username" required> </div>
+        <div id="password"> <span>Password:</span>
+          <input type="password" name="password" id="password" placeholder="Enter your password" pattern="[a-zA-Z]{10}" required> </div>
+        <div id="password"> <span>Re-type Password:</span>
+            <input type="password" name="password" id="password" placeholder="Enter your password" pattern="[a-zA-Z]{10}" required> </div>
+        <div id="gender"> <span>Gender:</span>
+          <input type="radio" name="gender">Male
+          <input type="radio" name="gender">Female </div>
+        <div id="gender"> <span>Techie Skills:</span>
+          <input type="checkbox" name="skills">HTML
+          <input type="checkbox" name="skills">CSS 
+          <input type="checkbox" name="skills">Javascript </div>
+        <div id="mobile"> <span>Phone Number:</span>
+            <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{8}" placeholder="Enter your address" required> </div>
+        <div id="address"> <span>Email:</span>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+        </div>
+        <div id="college"> <span>College:</span>
+            <select name="college" id="college" >
+                <option value="">Select a College</option>
+            </select>
+        </div>
+        <input type="button" id="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
