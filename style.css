@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600;700&display=swap');
 body {
 	margin: 0;
 	padding: 0;
-    font-family: sans-serif;
+    font-family: 'Halant', serif;
 }
 
 .container {
@@ -17,6 +18,8 @@ body {
 	text-align: left;
     margin-left: 35px;
     margin-bottom: 40px;
+	font-weight: 600;
+	font-size: 40px;
 }
 
 .container span {
@@ -25,7 +28,7 @@ body {
 	display: inline-block;
 	width: 30%;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .container input {
